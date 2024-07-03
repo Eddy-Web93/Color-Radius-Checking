@@ -20,7 +20,7 @@
 .heading{
     text-transform: capitalize;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: underline;
     color: #010d18;
 }
@@ -47,4 +47,12 @@
 }
 #input:focus{
     border: 3px solid #023463;
+}
+@media (max-width : 800px) {
+    .heading{
+        font-size: 25px;
+    }
+    #input{
+        font-size: 18px;
+    }
 }
