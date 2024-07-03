@@ -30,6 +30,7 @@
     margin: 20px;
     background: #fff;
     border: 1px solid #4df3ff;
+    transition: all 1s;
 }
 .input{
     width: 25em;
@@ -40,9 +41,10 @@
     height: 100%;
     border: none;
     padding: 0 20px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
     color: #010d18;
+    text-transform: capitalize;
     outline: none;
 }
 #input:focus{
